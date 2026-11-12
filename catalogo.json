@@ -1,5 +1,922 @@
 {
   "versao": 1,
   "atualizado": "2026-11-12",
-  "fontes": []
+  "fontes": [
+    {
+      "id": "renascenca",
+      "nome": "Renascença",
+      "tipo": "radio",
+      "programas": [
+        {
+          "id": "renascenca-extremamente-desagradavel",
+          "nome": "Extremamente Desagradável",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/863f2472-d5a7-43df-ae4e-ad7c00b2c18b/516d596c-f0a8-4a56-a528-ad7c00b2c364/podcast.rss"
+        },
+        {
+          "id": "renascenca-seja-o-que-deus-quiser",
+          "nome": "Seja o que Deus Quiser",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/91df467c-d550-471f-a34c-b01c00a3567b/28920256-3060-40fb-b1ef-b01c00a358c3/podcast.rss"
+        },
+        {
+          "id": "renascenca-as-pessoas-tem-que-se-acalmar-imediatamente",
+          "nome": "As pessoas têm que se acalmar, imediatamente!",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/72cc82cc-34d6-4d38-8e92-b37101218893/a5b861e2-ffe5-417d-a800-b371012190db/podcast.rss"
+        },
+        {
+          "id": "renascenca-as-tres-da-manha",
+          "nome": "As Três da Manhã",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/d52b2425-9d4c-42e4-8b15-ad7c00adb55d/cdd72156-e80e-4241-8b4c-ad7c00adb647/podcast.rss"
+        },
+        {
+          "id": "renascenca-noticiarios-bola-branca",
+          "nome": "Noticiários Bola Branca",
+          "categoria": "Desporto",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/6f9773f6-575d-4f93-b9f6-ad7800b75649/758f2e85-2a74-401a-ab8c-ad7800b7576c/podcast.rss"
+        },
+        {
+          "id": "renascenca-tertulia-bola-branca",
+          "nome": "Tertúlia Bola Branca",
+          "categoria": "Desporto",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/5e75d444-5a53-4404-b2f6-ad7c00ba0374/1d917cad-8ddb-4a2c-9330-ad7c00ba0455/podcast.rss"
+        },
+        {
+          "id": "renascenca-noticiarios",
+          "nome": "Noticiários",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/d4d808c0-10fc-4c94-bc85-ad7800a097e2/e96b5334-2b08-4ee7-a9f7-ad7800a099e1/podcast.rss"
+        },
+        {
+          "id": "renascenca-explicador-renascenca",
+          "nome": "Explicador Renascença",
+          "categoria": "Educação",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/2aa461a2-044c-4589-b57f-af9400a9f446/5eb4d777-6d26-4043-950b-af9400a9f7d0/podcast.rss"
+        },
+        {
+          "id": "renascenca-alerta-estupidez",
+          "nome": "Alerta Estupidez",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/29318b51-5805-471f-b6dc-b22d00cd668e/c8b2a1c2-6ff6-4b67-8ced-b22d00cd69bb/podcast.rss"
+        },
+        {
+          "id": "renascenca-hora-da-verdade",
+          "nome": "Hora da Verdade",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/cbefba18-a0f7-4814-9a0f-ad7c00b72ca1/00a970e5-e25c-4bac-981f-ad7c00b72e47/podcast.rss"
+        },
+        {
+          "id": "renascenca-casa-comum",
+          "nome": "Casa Comum",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/c1c434d5-778c-4fea-ba30-ad7c00aec099/da874b49-9672-4639-9e22-ad7c00aec26e/podcast.rss"
+        },
+        {
+          "id": "renascenca-da-capa-a-contracapa",
+          "nome": "Da Capa à Contracapa",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/461254a4-2ca7-463a-876b-ad7c00b061d6/e9b4c0ce-8a82-41f1-ada0-ad7c00b062c1/podcast.rss"
+        },
+        {
+          "id": "renascenca-sao-bento-a-sexta",
+          "nome": "São Bento à Sexta",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/861f1064-68e9-4212-a69a-ad7c00b9a40d/7a6ba728-8733-49f7-8d75-ad7c00b9a505/podcast.rss"
+        },
+        {
+          "id": "renascenca-renascenca-reportagem",
+          "nome": "Renascença Reportagem",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/8c929b1b-078d-46b8-a41d-ad7c00b93dda/4b3597a5-da6e-451e-aa32-ad7c00b93ecd/podcast.rss"
+        },
+        {
+          "id": "renascenca-a-essencia",
+          "nome": "A Essência",
+          "categoria": "Cultura",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/454908a5-9bb8-4217-b60f-ad7c00ae3107/6dd57f5a-9500-4eb8-ad4d-ad7c00ae3314/podcast.rss"
+        }
+      ]
+    },
+    {
+      "id": "rfm",
+      "nome": "RFM",
+      "tipo": "radio",
+      "programas": [
+        {
+          "id": "rfm-ninguem-pod-comigo",
+          "nome": "Ninguém POD comigo",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/268e6eb1-be56-4b10-8746-b19200af49ba/b384c3db-6863-4108-8868-b19200af4ea7/podcast.rss"
+        },
+        {
+          "id": "rfm-as-marias-genz",
+          "nome": "As Marias GenZ",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/444bb3d0-0783-4bcc-ac0e-b4cc00a961b1/43e96d41-9823-4d67-adf1-b4cc00a965db/podcast.rss"
+        },
+        {
+          "id": "rfm-cataplana-de-leitao",
+          "nome": "Cataplana de Leitão",
+          "categoria": "Cultura",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/e61a947d-0da2-44a6-bb55-b4ec00e2c170/e8e65884-0b93-4f30-9938-b4ec00e2c5c4/podcast.rss"
+        },
+        {
+          "id": "rfm-cafe-curto",
+          "nome": "Café curto",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/9874fc7a-9b3f-4c35-a236-b27500fd8864/46f83fb0-f68d-40c6-bcf5-b27500fd8cfd/podcast.rss"
+        },
+        {
+          "id": "rfm-aqui-ha-gato",
+          "nome": "Aqui há gato",
+          "categoria": "Cultura",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/ba543774-846f-4c54-8a32-b42f00b90d8f/93964a26-1187-4c72-8487-b42f00b91231/podcast.rss"
+        },
+        {
+          "id": "rfm-rfm-hangout-com-pedro-simoes",
+          "nome": "RFM Hangout com Pedro Simões",
+          "categoria": "Música",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/48b7aaf0-a774-404a-9050-b27900ffbfa4/ece17b89-3530-42a9-bcd1-b27900ffc387/podcast.rss"
+        },
+        {
+          "id": "rfm-falar-demais",
+          "nome": "Falar Demais",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/14f0bb15-fd80-4dc7-804c-b45101150057/b413db7b-f0d6-491c-a0fc-b451011504f3/podcast.rss"
+        },
+        {
+          "id": "rfm-dafonse-sessions",
+          "nome": "Dafonse Sessions",
+          "categoria": "Música",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/402b781c-6282-40f2-a6c9-b3aa011e97de/82c11d51-e167-41e7-a2ec-b3aa011e9c1c/podcast.rss"
+        },
+        {
+          "id": "rfm-umaportodas",
+          "nome": "#UMAPORTODAS",
+          "categoria": "Saúde",
+          "feed": "https://www.omnycontent.com/d/playlist/58028bcf-e01f-4274-aca7-ad3300f67928/30e8633b-e749-4f24-8601-b4e201098617/fcaf8eec-ba0f-454a-8f15-b4e201098a6f/podcast.rss"
+        }
+      ]
+    },
+    {
+      "id": "radio-comercial",
+      "nome": "Rádio Comercial",
+      "tipo": "radio",
+      "programas": [
+        {
+          "id": "radio-comercial-o-homem-que-mordeu-o-cao",
+          "nome": "O Homem que Mordeu o Cão",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3240.xml"
+        },
+        {
+          "id": "radio-comercial-bem-vindo-a-mais-um-episodio-de",
+          "nome": "Bem-vindo a mais um episódio de.",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3371.xml"
+        },
+        {
+          "id": "radio-comercial-mixordia-de-tematicas",
+          "nome": "Mixórdia de Temáticas",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3266.xml"
+        },
+        {
+          "id": "radio-comercial-caderneta-de-cromos",
+          "nome": "Caderneta de Cromos",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3278.xml"
+        },
+        {
+          "id": "radio-comercial-o-nosso-olhar-para-ti",
+          "nome": "O Nosso Olhar Para Ti",
+          "categoria": "Saúde",
+          "feed": "https://rss.podplaystudio.com/3362.xml"
+        },
+        {
+          "id": "radio-comercial-momentos-da-manha",
+          "nome": "Momentos da Manhã",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3243.xml"
+        },
+        {
+          "id": "radio-comercial-o-meu-clube-e-o-maior",
+          "nome": "O Meu Clube é o Maior",
+          "categoria": "Desporto",
+          "feed": "https://rss.podplaystudio.com/3421.xml"
+        },
+        {
+          "id": "radio-comercial-resumo-das-manhas",
+          "nome": "Resumo das Manhãs",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3237.xml"
+        },
+        {
+          "id": "radio-comercial-noticiarios-radio-comercial",
+          "nome": "Noticiários Rádio Comercial",
+          "categoria": "Notícias",
+          "feed": "https://rss.podplaystudio.com/3348.xml"
+        },
+        {
+          "id": "radio-comercial-ja-se-faz-tarde",
+          "nome": "Já se faz Tarde",
+          "categoria": "Sociedade",
+          "feed": "https://rss.podplaystudio.com/3233.xml"
+        },
+        {
+          "id": "radio-comercial-eu-e-que-sei",
+          "nome": "Eu é que sei!",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3234.xml"
+        },
+        {
+          "id": "radio-comercial-dejajero-nas-manhas-da-comercial",
+          "nome": "Dejajero nas Manhãs da Comercial",
+          "categoria": "Lazer",
+          "feed": "https://rss.podplaystudio.com/3326.xml"
+        },
+        {
+          "id": "radio-comercial-adivinha-da-joana",
+          "nome": "Adivinha da Joana",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3312.xml"
+        },
+        {
+          "id": "radio-comercial-hollywood-express",
+          "nome": "Hollywood Express",
+          "categoria": "Cinema e TV",
+          "feed": "https://rss.podplaystudio.com/3242.xml"
+        },
+        {
+          "id": "radio-comercial-vou-contar-uma-cancao",
+          "nome": "Vou Contar uma Canção",
+          "categoria": "Música",
+          "feed": "https://rss.podplaystudio.com/3420.xml"
+        }
+      ]
+    },
+    {
+      "id": "m80",
+      "nome": "M80",
+      "tipo": "radio",
+      "programas": [
+        {
+          "id": "m80-macaquinhos-no-sotao",
+          "nome": "Macaquinhos no Sótão",
+          "categoria": "Humor",
+          "feed": "https://rss.podplaystudio.com/3281.xml"
+        },
+        {
+          "id": "m80-noticiarios-m80",
+          "nome": "Noticiários M80",
+          "categoria": "Notícias",
+          "feed": "https://rss.podplaystudio.com/3349.xml"
+        },
+        {
+          "id": "m80-o-lado-b-das-manhas-da-m80",
+          "nome": "O Lado B das Manhãs da m80",
+          "categoria": "Sociedade",
+          "feed": "https://rss.podplaystudio.com/3319.xml"
+        },
+        {
+          "id": "m80-hoje-foi-assim",
+          "nome": "Hoje Foi Assim",
+          "categoria": "Notícias",
+          "feed": "https://rss.podplaystudio.com/3398.xml"
+        },
+        {
+          "id": "m80-a-playlist-da-vanda-na-m80",
+          "nome": "A Playlist da Vanda na m80",
+          "categoria": "Música",
+          "feed": "https://rss.podplaystudio.com/3367.xml"
+        },
+        {
+          "id": "m80-como-se-costuma-dizer",
+          "nome": "Como se Costuma Dizer",
+          "categoria": "História",
+          "feed": "https://rss.podplaystudio.com/3354.xml"
+        },
+        {
+          "id": "m80-linha-de-passe",
+          "nome": "Linha de Passe",
+          "categoria": "Desporto",
+          "feed": "https://rss.podplaystudio.com/3279.xml"
+        },
+        {
+          "id": "m80-as-baladas-da-elsa-na-m80",
+          "nome": "As Baladas da Elsa na m80",
+          "categoria": "Música",
+          "feed": "https://rss.podplaystudio.com/3413.xml"
+        },
+        {
+          "id": "m80-andar-a-trela",
+          "nome": "Andar à Trela",
+          "categoria": "Família",
+          "feed": "https://rss.podplaystudio.com/3268.xml"
+        },
+        {
+          "id": "m80-vitoria-vitoria-vem-ai-uma-historia",
+          "nome": "Vitória, Vitória, Vem Aí Uma História",
+          "categoria": "Família",
+          "feed": "https://rss.podplaystudio.com/3316.xml"
+        }
+      ]
+    },
+    {
+      "id": "antena-1",
+      "nome": "Antena 1",
+      "tipo": "radio",
+      "programas": [
+        {
+          "id": "antena-1-portugalex",
+          "nome": "Portugalex",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/4a9dbeb6-76e5-43db-a73d-b40300f6c612/5448fc3c-ab42-4696-8f66-b40300f6c619/podcast.rss"
+        },
+        {
+          "id": "antena-1-noticiario",
+          "nome": "Noticiário",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/d1fe3b63-b8c1-4962-abdc-b40300f6c3e4/5dceb6f0-be7b-409b-b512-b40300f6c3ec/podcast.rss"
+        },
+        {
+          "id": "antena-1-inventario-pessoal",
+          "nome": "Inventário Pessoal",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/d0fddbce-d9f1-4b87-99c0-b40300f6c20f/007e3e4a-6f5f-4e88-94b1-b40300f6c216/podcast.rss"
+        },
+        {
+          "id": "antena-1-vencidos",
+          "nome": "Vencidos",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/9a4c8e34-dff3-473c-a8ee-b40300f6c130/8a9c3816-55b8-4d8d-94de-b40300f6c137/podcast.rss"
+        },
+        {
+          "id": "antena-1-um-dia-no-mundo",
+          "nome": "Um Dia no Mundo",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/79ac120c-a232-4e49-95be-b40300f6c641/65b0e9ab-ab4f-4d98-a457-b40300f6c64d/podcast.rss"
+        },
+        {
+          "id": "antena-1-postal-do-dia",
+          "nome": "Postal do Dia",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/ed27a293-dc3d-4e4c-a7c8-b3ec015356c7/f9433786-212b-402f-b00c-b3ec015356d3/podcast.rss"
+        },
+        {
+          "id": "antena-1-o-movimento-das-coisas",
+          "nome": "O Movimento das Coisas",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/3cee8003-ade4-40cb-8de0-b41f00e0b49b/27c63e36-e25b-4030-9be5-b41f00e0b4ac/podcast.rss"
+        },
+        {
+          "id": "antena-1-contraditorio",
+          "nome": "Contraditório",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/a2720984-0a73-4f57-800d-b40300f6c5e6/aa5d7708-732f-4a65-870c-b40300f6c5ec/podcast.rss"
+        },
+        {
+          "id": "antena-1-teorias-da-conspiracao",
+          "nome": "Teorias da Conspiração",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/04b5c605-a226-4d22-82c8-b411014a8a01/1659c653-6ab4-44bc-a21f-b411014a8a2e/podcast.rss"
+        },
+        {
+          "id": "antena-1-jornal-de-desporto",
+          "nome": "Jornal de Desporto",
+          "categoria": "Desporto",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/f88d927a-df18-4cb9-9b33-b40300f6c56c/0849ff58-edaa-45d7-abdb-b40300f6c572/podcast.rss"
+        },
+        {
+          "id": "antena-1-portugal-em-direto",
+          "nome": "Portugal em Direto",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/06393a83-d9ba-4019-8a8d-b40300f6c5d3/45781e3b-fdd6-4c0e-aff8-b40300f6c5d9/podcast.rss"
+        },
+        {
+          "id": "antena-1-90-segundos-de-ciencia",
+          "nome": "90 Segundos de Ciência",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/236ecb80-0698-4af1-8dda-b40300f6c166/6a4802dc-624d-4ce2-bec6-b40300f6c172/podcast.rss"
+        },
+        {
+          "id": "antena-1-ultimo-terco",
+          "nome": "Último Terço",
+          "categoria": "Desporto",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/7fed6dd3-2257-40ff-8eb8-b40300f6c0cf/492ec666-95bf-4da3-8a86-b40300f6c0d7/podcast.rss"
+        },
+        {
+          "id": "antena-1-almanaque-de-ouvido",
+          "nome": "Almanaque de Ouvido",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/90281ba6-3169-4a01-bd84-b40300f6c696/9ae96d1c-e2f8-400f-85b5-b40300f6c69e/podcast.rss"
+        },
+        {
+          "id": "antena-1-antena-aberta",
+          "nome": "Antena Aberta",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/8943d773-466b-43a7-a933-b40300f6bb8a/9b8ec38d-2311-4e38-aefb-b40300f6bb93/podcast.rss"
+        }
+      ]
+    },
+    {
+      "id": "antena-3",
+      "nome": "Antena 3",
+      "tipo": "radio",
+      "programas": [
+        {
+          "id": "antena-3-prova-oral",
+          "nome": "Prova Oral",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/066fc33c-7966-4ec8-81bf-b40300f6c907/65e779b3-5cd1-4988-a18a-b40300f6c910/podcast.rss"
+        },
+        {
+          "id": "antena-3-aleixo-fm",
+          "nome": "Aleixo FM",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/0e8f9ddb-4f80-464c-bb4f-b40300f6ca69/b198ae0e-0dfd-4951-854a-b40300f6ca6f/podcast.rss"
+        },
+        {
+          "id": "antena-3-voz-de-cama",
+          "nome": "Voz de Cama",
+          "categoria": "Saúde",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/53688e50-b2b7-4eaa-8f95-b40300f6ca30/297c745e-77be-4ff2-adf8-b40300f6ca37/podcast.rss"
+        },
+        {
+          "id": "antena-3-aleixopedia",
+          "nome": "Aleixopédia",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/ff8d2f6c-1b9d-48b4-b2e6-b40300f6c9dd/be619ff1-e8bb-4015-9ab8-b40300f6c9e4/podcast.rss"
+        },
+        {
+          "id": "antena-3-dona-da-casa",
+          "nome": "Dona da Casa",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/08cb5ace-b31a-49ad-a58a-b40300f6c986/4a1ea4a5-08c1-4d83-a7ab-b40300f6c98c/podcast.rss"
+        },
+        {
+          "id": "antena-3-logo-se-ve-bits",
+          "nome": "Logo Se Vê - Bits",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/02c05de0-eeca-4c13-89e3-b40300f6ca1d/0a6273af-cff0-40db-8a4a-b40300f6ca23/podcast.rss"
+        },
+        {
+          "id": "antena-3-friccao-cientifica",
+          "nome": "Fricção Científica",
+          "categoria": "Ciência",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/80c7166d-a8ad-4f8c-8878-b40300f6c9c7/5a2aaf35-0d41-4f90-a016-b40300f6c9ce/podcast.rss"
+        },
+        {
+          "id": "antena-3-manhazitos-da-3",
+          "nome": "Manhãzitos da 3",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/73f1d1b2-ac9b-4704-b9a2-b40300f6c923/cc1586c2-c507-49cd-bdad-b40300f6c92a/podcast.rss"
+        },
+        {
+          "id": "antena-3-hora-do-jogo",
+          "nome": "Hora do Jogo",
+          "categoria": "Desporto",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/ec879234-c49f-4086-90b8-b40300f6caae/2047ebab-1e79-4595-ab46-b40300f6cabe/podcast.rss"
+        },
+        {
+          "id": "antena-3-desenjoa",
+          "nome": "Desenjoa",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/89294395-9176-4f37-81a7-b40300f6c952/904c0b8a-e336-4ad9-aca3-b40300f6c95b/podcast.rss"
+        },
+        {
+          "id": "antena-3-consultorio-ambiental",
+          "nome": "Consultório Ambiental",
+          "categoria": "Ciência",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/538e8148-a1dd-400a-8e00-b40300f6c8c9/098dc399-9e76-4d2b-a386-b40300f6c8da/podcast.rss"
+        },
+        {
+          "id": "antena-3-a-vida-numa-estante",
+          "nome": "A Vida numa Estante",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/f175b1e3-ecc7-4dc5-8307-b3aa008ffd8a/2e63a29b-e430-4841-a626-b40300f6c8f2/4945ddfb-6591-463e-88b5-b40300f6c8f9/podcast.rss"
+        }
+      ]
+    },
+    {
+      "id": "tsf",
+      "nome": "TSF",
+      "tipo": "radio",
+      "programas": [
+        {
+          "id": "tsf-visao-de-jogo",
+          "nome": "Visão de Jogo",
+          "categoria": "Desporto",
+          "feed": "https://feeds.feedburner.com/visao-de-jogo"
+        },
+        {
+          "id": "tsf-mundo-digital",
+          "nome": "Mundo Digital",
+          "categoria": "Tecnologia",
+          "feed": "https://feeds.feedburner.com/mundo-digital"
+        },
+        {
+          "id": "tsf-sinais",
+          "nome": "Sinais",
+          "categoria": "Sociedade",
+          "feed": "https://feeds.feedburner.com/sinais-podcast"
+        },
+        {
+          "id": "tsf-forum-tsf",
+          "nome": "Fórum TSF",
+          "categoria": "Notícias",
+          "feed": "https://feeds.feedburner.com/forum-tsf"
+        },
+        {
+          "id": "tsf-pais-e-filhos",
+          "nome": "Pais e Filhos",
+          "categoria": "Família",
+          "feed": "https://feeds.feedburner.com/tsf-pais-e-filhos"
+        },
+        {
+          "id": "tsf-fila-j",
+          "nome": "Fila J",
+          "categoria": "Cinema e TV",
+          "feed": "https://feeds.feedburner.com/fila-j"
+        },
+        {
+          "id": "tsf-memoria-de-elefante",
+          "nome": "Memória de Elefante",
+          "categoria": "Sociedade",
+          "feed": "https://feeds.feedburner.com/memoria-de-elefante"
+        },
+        {
+          "id": "tsf-prato-do-dia",
+          "nome": "Prato do Dia",
+          "categoria": "Lazer",
+          "feed": "https://feeds.feedburner.com/prato-do-dia"
+        },
+        {
+          "id": "tsf-pura-economia",
+          "nome": "Pura Economia",
+          "categoria": "Economia",
+          "feed": "https://feeds.feedburner.com/pura-economia"
+        },
+        {
+          "id": "tsf-na-ordem-do-dia",
+          "nome": "Na Ordem do Dia",
+          "categoria": "Notícias",
+          "feed": "https://feeds.feedburner.com/na-ordem-do-dia"
+        },
+        {
+          "id": "tsf-o-estado-do-sitio",
+          "nome": "O Estado do Sítio",
+          "categoria": "Política",
+          "feed": "https://feeds.feedburner.com/o-estado-do-sitio"
+        },
+        {
+          "id": "tsf-vamos-aos-factos",
+          "nome": "Vamos aos Factos",
+          "categoria": "Notícias",
+          "feed": "https://feeds.feedburner.com/vamos-aos-factos"
+        },
+        {
+          "id": "tsf-levante-se-o-reu",
+          "nome": "Levante-se o Réu",
+          "categoria": "Sociedade",
+          "feed": "https://feeds.feedburner.com/levantese-o-reu"
+        },
+        {
+          "id": "tsf-entrevista-tsf-jn",
+          "nome": "Entrevista TSF-JN",
+          "categoria": "Notícias",
+          "feed": "https://feeds.feedburner.com/entrevista-tsf-jn"
+        },
+        {
+          "id": "tsf-a-escuta-do-mundo",
+          "nome": "A Escuta do Mundo",
+          "categoria": "Notícias",
+          "feed": "https://feeds.feedburner.com/a-escuta-do-mundo"
+        }
+      ]
+    },
+    {
+      "id": "observador",
+      "nome": "Observador",
+      "tipo": "jornal",
+      "programas": [
+        {
+          "id": "observador-a-historia-do-dia",
+          "nome": "A História do Dia",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/608bb2e4-5b5f-49c9-9889-ae390106b3a2/e59accef-a2c2-4942-bd26-ae390108882b/podcast.rss"
+        },
+        {
+          "id": "observador-o-bom-o-mau-e-o-vilao",
+          "nome": "O Bom, o Mau e o Vilão",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/283c390d-550e-476e-92dd-aa7800f2a1d3/1a463122-6984-47e7-ada2-aa7800f2ce32/podcast.rss"
+        },
+        {
+          "id": "observador-contra-corrente",
+          "nome": "Contra-Corrente",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/ecbc4619-6864-42dd-b202-aa7800eee13f/b8f098a0-cf1d-4f40-9ba3-aa7800eefdd3/podcast.rss"
+        },
+        {
+          "id": "observador-e-o-vencedor-e",
+          "nome": "E o vencedor é...",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/d1e36a33-3aee-419f-95ef-aabc00fcb68a/d79770ab-4309-4a59-b995-aabc00fd8048/podcast.rss"
+        },
+        {
+          "id": "observador-ideias-feitas",
+          "nome": "Ideias Feitas",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/dc9a4183-cf68-48e9-9af6-aa7800f141ff/89f6ecb8-c3e4-4284-8587-aa7800f15f05/podcast.rss"
+        },
+        {
+          "id": "observador-gabinete-de-guerra",
+          "nome": "Gabinete de Guerra",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/097c5470-4118-4e70-a49f-ae480063b67e/72c662bb-8147-42e7-b00b-ae4800647204/podcast.rss"
+        },
+        {
+          "id": "observador-realpolitik",
+          "nome": "Realpolitik",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/3e3816cb-ca81-414f-a823-b31b01134270/7e1dc826-795e-4d71-9edb-b31b011349b3/podcast.rss"
+        },
+        {
+          "id": "observador-e-o-campeao-e",
+          "nome": "E o campeão é...",
+          "categoria": "Desporto",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/c0eaa82b-fe64-436d-9551-ad3100fb0cc7/78749480-2e64-4b69-a5f4-ad3100fb636a/podcast.rss"
+        },
+        {
+          "id": "observador-explicador",
+          "nome": "Explicador",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/28ea0d60-91ca-486c-8390-aa7800f09e36/e13ff818-4ca7-435e-8f48-aa7800f0bd1a/podcast.rss"
+        },
+        {
+          "id": "observador-portugues-suave",
+          "nome": "Português Suave",
+          "categoria": "Educação",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/661fda7d-875b-4937-8b02-b1ea013a4b59/55b35e82-38f7-496d-963e-b1ea013be074/podcast.rss"
+        },
+        {
+          "id": "observador-pop-up",
+          "nome": "Pop Up",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/6b61b063-ce69-473a-ac3b-aa7800f421f0/60cbecbf-9442-4d7e-b98c-aa7800f43e08/podcast.rss"
+        },
+        {
+          "id": "observador-boa-moeda-ma-moeda",
+          "nome": "Boa moeda, má moeda",
+          "categoria": "Economia",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/148fd4ab-376c-48b5-b0e6-ade2018466d7/cc3367ea-59fc-40f7-a88b-ade20184db18/podcast.rss"
+        },
+        {
+          "id": "observador-conversas-a-quinta",
+          "nome": "Conversas à Quinta",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/7068de6b-faa6-4bbc-89ac-aa8601152413/22cce8e7-d4f3-413d-9aae-aa860115241c/podcast.rss"
+        },
+        {
+          "id": "observador-fora-do-baralho",
+          "nome": "Fora do Baralho",
+          "categoria": "Política",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/3a990b77-dc2e-4da3-bbda-ade8010d59b4/d7eefb28-832c-4a1f-bf41-ade8010f756f/podcast.rss"
+        },
+        {
+          "id": "observador-ainda-bem-que-faz-essa-pergunta",
+          "nome": "Ainda Bem que Faz Essa Pergunta",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/6697fc11-d71b-4fdc-9ec0-aa7800edeaf4/646f5c27-5296-4364-9976-aa7800ee12bc/podcast.rss"
+        },
+        {
+          "id": "observador-justica-cega",
+          "nome": "Justiça Cega",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/5fa24197-e734-4ba4-80a2-af2f0007e051/196d60df-6c58-48fd-b400-af2f0008b252/podcast.rss"
+        },
+        {
+          "id": "observador-porque-sim-nao-e-resposta",
+          "nome": "Porque Sim Não é Resposta",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/56475fb2-b425-4929-a7dc-aa7800f4590d/49745af6-50d6-4661-a109-aa7800f47934/podcast.rss"
+        },
+        {
+          "id": "observador-noticiario",
+          "nome": "Noticiário",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/a309792f-953f-457d-a66a-aa8d00a83d77/12d125b7-d7b1-4b7a-ac99-aa8d00a874cf/podcast.rss"
+        },
+        {
+          "id": "observador-as-sombras-de-duarte-lima",
+          "nome": "As Sombras de Duarte Lima",
+          "categoria": "Crime",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/8e567d3e-2b4f-41ee-87b8-b4eb012088c9/d65493ac-75d8-4bdc-8607-b4eb01208d01/podcast.rss"
+        },
+        {
+          "id": "observador-os-ficheiros-do-caso-carlos-castro",
+          "nome": "Os Ficheiros do Caso Carlos Castro",
+          "categoria": "Crime",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/20982591-91a3-4938-9b73-b41d009c4824/425e273e-46f6-452b-a1ff-b41d009c4cac/podcast.rss"
+        },
+        {
+          "id": "observador-a-vida-dupla-do-espiao-traidor",
+          "nome": "A Vida Dupla do Espião Traidor",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/48e83e47-2f21-4352-8b5d-b48d0134f5a8/436a1aff-18db-4a4f-ace5-b48d0134fa43/podcast.rss"
+        },
+        {
+          "id": "observador-as-historias-da-biblia",
+          "nome": "As Histórias da Bíblia",
+          "categoria": "História",
+          "feed": "https://www.omnycontent.com/d/playlist/b04d3ae5-22c4-41b6-b20a-aa54000ba759/a37bad7b-0a0b-480e-a000-b3f2009dd894/41841a8e-c859-4b0f-9cb1-b3f2009ddcb3/podcast.rss"
+        }
+      ]
+    },
+    {
+      "id": "expresso",
+      "nome": "Expresso",
+      "tipo": "jornal",
+      "programas": [
+        {
+          "id": "expresso-expresso-da-manha",
+          "nome": "Expresso da Manhã",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/064a2199-5efd-4493-91fd-ad8e00d05623/d386d7cf-461c-4185-8e79-ad8e00d05636/podcast.rss"
+        },
+        {
+          "id": "expresso-comissao-politica",
+          "nome": "Comissão Política",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/1bbe5b2d-4e35-4ff9-9159-ad8e00cdf638/8636b64a-890d-434d-b847-ad8e00cdf64b/podcast.rss"
+        },
+        {
+          "id": "expresso-a-historia-repete-se",
+          "nome": "A História repete-se",
+          "categoria": "História",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/10b0e09d-c6df-484b-bdb6-af7f00f7a055/4acd8daa-6fdb-4b6b-9adf-af7f00fb732a/podcast.rss"
+        },
+        {
+          "id": "expresso-lei-da-paridade",
+          "nome": "Lei da Paridade",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/436185ec-9dda-457a-91c6-b11b00b9e4ef/c2f93d4c-bf47-41c5-bd96-b11b00b9e515/podcast.rss"
+        },
+        {
+          "id": "expresso-humor-a-primeira-vista",
+          "nome": "Humor à Primeira Vista",
+          "categoria": "Humor",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/ee44ce94-1fd3-4378-b0a0-ad8e00d135e1/31f20143-d537-4f0e-859b-ad8e00d135f4/podcast.rss"
+        },
+        {
+          "id": "expresso-no-principio-era-a-bola",
+          "nome": "No Princípio era a Bola",
+          "categoria": "Desporto",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/5bd6b6d2-a88f-479f-8d21-b055012cf0f2/768dad18-6648-4539-b181-b055012ed7a5/podcast.rss"
+        },
+        {
+          "id": "expresso-economia-dia-a-dia",
+          "nome": "Economia dia a dia",
+          "categoria": "Economia",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/2b40e5ee-c5d5-41f0-8d7a-afbd0132c937/6184058c-dc70-43b9-88a5-afbd0135a817/podcast.rss"
+        },
+        {
+          "id": "expresso-45-graus",
+          "nome": "45 Graus",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/e7ef25e4-c0ce-4491-b242-b29200d2a3a5/714b5ae6-019f-481c-a560-b29200d2a3b7/podcast.rss"
+        },
+        {
+          "id": "expresso-a-beleza-das-pequenas-coisas",
+          "nome": "A Beleza das Pequenas Coisas",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/8d81de7a-ef94-4ca4-ab21-ad8e00cdc0ac/210f56e3-98b3-4d57-a6e0-ad8e00cdc0bf/podcast.rss"
+        },
+        {
+          "id": "expresso-o-ceo-e-o-limite",
+          "nome": "O CEO é o limite",
+          "categoria": "Economia",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/19542692-7b7e-4941-82fa-af7b01078cb8/de4b16ae-fa04-4fb8-bf19-af7b010abd6f/podcast.rss"
+        },
+        {
+          "id": "expresso-o-mundo-a-seus-pes",
+          "nome": "O Mundo a Seus Pés",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/6de02922-bd88-46a9-b99a-ad8e00d0e195/ef131ae5-f98c-407e-b02a-ad8e00d0e1b1/podcast.rss"
+        },
+        {
+          "id": "expresso-bloco-central",
+          "nome": "Bloco Central",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/b49615cf-e035-4972-9fd8-b11b01234946/abe64fb3-2304-4639-9511-b11b01234962/podcast.rss"
+        },
+        {
+          "id": "expresso-o-prazer-e-todo-meu",
+          "nome": "O Prazer é Todo Meu",
+          "categoria": "Saúde",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/2418c7ae-65b8-4623-abbb-b41700f15c4b/c790433b-ca9e-47b5-8da2-b41700f160d2/podcast.rss"
+        },
+        {
+          "id": "expresso-miguel-sousa-tavares-de-viva-voz",
+          "nome": "Miguel Sousa Tavares de Viva Voz",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/580bc55a-6d41-4cb8-9d9c-aecc0138d40a/8d8bc5de-b9ff-448e-b899-aecc01397c4d/podcast.rss"
+        },
+        {
+          "id": "expresso-tempo-ao-tempo",
+          "nome": "Tempo ao Tempo",
+          "categoria": "História",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/2f5bd486-cd8d-4f13-a8a9-b20400e00d91/53c17134-4246-4bc6-9fc9-b20400e0a967/podcast.rss"
+        },
+        {
+          "id": "expresso-blitz-posto-emissor",
+          "nome": "Blitz Posto Emissor",
+          "categoria": "Cultura",
+          "feed": "https://www.omnycontent.com/d/playlist/8c0a4104-a688-4e57-91fd-ad7b00d5dddd/bf5b3fa0-c1fa-4610-ab45-ad8e00d24c4d/4b068341-781d-4f88-aef0-ad8e00d24c64/podcast.rss"
+        }
+      ]
+    },
+    {
+      "id": "publico",
+      "nome": "Público",
+      "tipo": "jornal",
+      "programas": [
+        {
+          "id": "publico-hoje",
+          "nome": "Hoje",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/7e76e382-02a8-40df-8932-b05b00b05455/28995c9b-446d-468d-b317-b05b00b0547b/podcast.rss"
+        },
+        {
+          "id": "publico-o-homem-que-matou-duas-vezes",
+          "nome": "O Homem Que Matou Duas Vezes",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/853b0ecc-0674-4217-b93b-b4ce00ebfeec/2e00218e-2a21-4b32-a4f0-b4ce00ec0389/podcast.rss"
+        },
+        {
+          "id": "publico-soundbite",
+          "nome": "Soundbite",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/4f165a09-1e07-4665-8fb6-b098011c827d/320c9bff-481a-41b3-919e-b098011dfb5a/podcast.rss"
+        },
+        {
+          "id": "publico-um-homem-nao-chora",
+          "nome": "Um homem não chora",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/9c9def65-8790-437e-af5b-b0fd00c0d85e/947b573e-3f89-4847-9bba-b0fd00c9c6b9/podcast.rss"
+        },
+        {
+          "id": "publico-quem-matou-rosalina",
+          "nome": "Quem matou Rosalina?",
+          "categoria": "Crime",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/c4b7cd33-12f3-4d6e-82b3-b4ed0107ee4a/2c5c7f2b-dd1d-4f9c-af9c-b4ed0107f3aa/podcast.rss"
+        },
+        {
+          "id": "publico-poder-publico",
+          "nome": "Poder Público",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/17b8ba71-14b5-4eb7-8756-b05b00b0032b/961900f2-5026-4c00-876d-b05b00b0035f/podcast.rss"
+        },
+        {
+          "id": "publico-prova-dos-factos",
+          "nome": "Prova dos Factos",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/bab76683-7749-4ee4-9230-b4d200f14515/43acc1bf-6c56-4f60-91d0-b4d200f1495c/podcast.rss"
+        },
+        {
+          "id": "publico-o-coracao-ainda-bate",
+          "nome": "O Coração ainda bate",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/268a48bd-4a0e-41f8-b89f-b05900f29595/c2fb818d-47ef-4a2e-8da7-b05900f295ac/podcast.rss"
+        },
+        {
+          "id": "publico-plug-in",
+          "nome": "Plug-in",
+          "categoria": "Lazer",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/6d649e3a-26d3-4895-a3c6-b39300e56864/9186731d-ff03-42b1-a6e7-b39300e56c67/podcast.rss"
+        },
+        {
+          "id": "publico-cultas-e-vinho-verde",
+          "nome": "Cultas e vinho verde",
+          "categoria": "Cultura",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/49822050-7bfe-4c42-821f-b260011d0e87/d12cc55f-52bc-49ec-98d0-b260011d116a/podcast.rss"
+        },
+        {
+          "id": "publico-sobre-carris",
+          "nome": "Sobre Carris",
+          "categoria": "Notícias",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/676c061d-5209-4691-ac9f-b05800f63545/d28c6e05-4acc-4d41-bc91-b05800f63578/podcast.rss"
+        },
+        {
+          "id": "publico-o-que-fazer-quando-tudo-arde",
+          "nome": "O que fazer quando tudo arde",
+          "categoria": "Sociedade",
+          "feed": "https://www.omnycontent.com/d/playlist/763f22a5-d3d9-4f9c-913e-b05701387d6e/dfe6dc2a-8b15-402c-88ac-b42e0108f094/e0eb9dd1-4fca-44d7-a361-b42e0108f51d/podcast.rss"
+        }
+      ]
+    }
+  ]
 }
