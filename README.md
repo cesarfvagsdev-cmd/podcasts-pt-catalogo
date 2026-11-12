@@ -22,7 +22,8 @@ Lista de rádios, jornais e programas que a app mostra. A app lê o ficheiro `ca
           "id": "exemplo-programa",
           "nome": "Programa Exemplo",
           "categoria": "Humor",
-          "feed": "https://example.com/feed.xml"
+          "feed": "https://example.com/feed.xml",
+          "capa": "https://example.com/capa.jpg"
         }
       ]
     }
@@ -35,6 +36,7 @@ Lista de rádios, jornais e programas que a app mostra. A app lê o ficheiro `ca
 | `versao` | Versão do formato; a app ignora versões que não conhece |
 | `fontes[].tipo` | `radio` ou `jornal` |
 | `programas[].feed` | Endereço do feed RSS público do programa |
+| `programas[].capa` | Opcional. Endereço da capa, tal como vem no feed do programa. Serve para a app mostrar as listas sem descarregar todos os feeds. Se faltar ou falhar, a app mostra as iniciais do programa |
 
 O exemplo acima é fictício. A ordem dos programas no ficheiro é a ordem em que a app os mostra.
 

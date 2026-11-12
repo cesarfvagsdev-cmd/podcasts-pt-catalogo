@@ -4,7 +4,8 @@
 Para cada programa confirma que:
 - o feed RSS responde por HTTPS e é XML válido;
 - os episódios mais recentes têm ficheiro de áudio;
-- o áudio responde por HTTPS, sem pedir login.
+- o áudio responde por HTTPS, sem pedir login;
+- a capa (campo opcional) responde por HTTPS. Uma capa que falha é só um aviso.
 
 Uso: python3 verificar.py [catalogo.json]
 Precisa apenas de Python 3 e do comando curl.
@@ -17,7 +18,7 @@ import subprocess
 import sys
 import xml.etree.ElementTree as ET
 
-AGENTE = "Mozilla/5.0 (Linux; Android 14) Rubrica/1.0"
+AGENTE = "Rubrica/1.0 (verificador do catalogo)"
 EPISODIOS_A_TESTAR = 3
 TIPOS = {"radio", "jornal"}
 ID_VALIDO = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -42,6 +43,7 @@ def data(item):
 
 def verifica_programa(prog):
     erros = []
+    avisos = prog.setdefault("_avisos", [])
     feed = prog.get("feed", "")
     if not feed.startswith("https://"):
         return prog, ["o feed não é HTTPS"], None
@@ -63,6 +65,15 @@ def verifica_programa(prog):
     if not itens:
         return prog, ["o feed não tem episódios"], None
     ultimo = email.utils.parsedate_to_datetime(itens[0].findtext("pubDate")).date().isoformat() if data(itens[0]) else None
+    capa = prog.get("capa")
+    if capa:
+        if not capa.startswith("https://"):
+            erros.append("a capa não é HTTPS")
+        else:
+            c = curl(["-o", "/dev/null", "-w", "%{http_code} %{content_type}", capa], 30)
+            codigo, _, tipo = (c.stdout.decode() if c else " ").partition(" ")
+            if codigo != "200" or not tipo.startswith("image/"):
+                avisos.append(f"a capa respondeu {codigo or 'sem código'} (a app mostra as iniciais)")
     for item in itens[:EPISODIOS_A_TESTAR]:
         titulo = (item.findtext("title") or "").strip()[:50]
         anexo = item.find("enclosure")
@@ -116,6 +127,8 @@ def main():
         for e in erros:
             print(f"       - {e}")
             problemas.append(f"{prog.get('id')}: {e}")
+        for a in prog.get("_avisos", []):
+            print(f"       aviso: {a}")
     bons = sum(1 for _, erros, _ in resultados if not erros)
     print(f"\n{bons} de {len(programas)} programas sem problemas.")
     for p in problemas:
