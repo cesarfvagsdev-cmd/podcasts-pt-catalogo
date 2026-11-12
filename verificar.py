@@ -21,6 +21,8 @@ import xml.etree.ElementTree as ET
 AGENTE = "Rubrica/1.0 (verificador do catalogo)"
 EPISODIOS_A_TESTAR = 3
 TIPOS = {"radio", "jornal", "tv"}
+GRUPOS = {"informacao", "comentario", "humor", "desporto", "economia",
+          "sociedade", "cultura", "familia", "saude"}
 ID_VALIDO = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 
@@ -112,6 +114,8 @@ def main():
             for campo in ("id", "nome", "categoria", "feed"):
                 if not prog.get(campo):
                     problemas.append(f"{prog.get('id')}: falta o campo {campo}")
+            if "grupo" in prog and prog["grupo"] not in GRUPOS:
+                problemas.append(f"{prog.get('id')}: grupo desconhecido ({prog['grupo']})")
             if not ID_VALIDO.match(prog.get("id", "")) or prog["id"] in ids:
                 problemas.append(f"id de programa inválido ou repetido: {prog.get('id')}")
             ids.add(prog.get("id"))
