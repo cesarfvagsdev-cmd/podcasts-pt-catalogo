@@ -22,6 +22,7 @@ Lista de rádios, jornais, televisões e programas que a app mostra. A app lê o
           "id": "exemplo-programa",
           "nome": "Programa Exemplo",
           "categoria": "Humor",
+          "grupo": "humor",
           "feed": "https://example.com/feed.xml",
           "capa": "https://example.com/capa.jpg"
         }
@@ -35,10 +36,16 @@ Lista de rádios, jornais, televisões e programas que a app mostra. A app lê o
 |---|---|
 | `versao` | Versão do formato; a app ignora versões que não conhece |
 | `fontes[].tipo` | `radio`, `jornal` ou `tv` |
+| `programas[].categoria` | Tema do programa, tal como vem do feed |
+| `programas[].grupo` | Opcional. O grupo em que a app arruma o programa: `informacao`, `comentario`, `humor`, `desporto`, `economia`, `sociedade`, `cultura`, `familia` ou `saude`. Sai do tema, exceto o comentário, que está numa lista escrita à mão em `grupos.py`. Se faltar, a app deduz o grupo do tema |
 | `programas[].feed` | Endereço do feed RSS público do programa |
 | `programas[].capa` | Opcional. Endereço da capa, tal como vem no feed do programa. Serve para a app mostrar as listas sem descarregar todos os feeds. Se faltar ou falhar, a app mostra as iniciais do programa |
 
 O exemplo acima é fictício. A ordem dos programas no ficheiro é a ordem em que a app os mostra.
+
+## Grupos
+
+Depois de acrescentar programas, correr `python3 grupos.py`: preenche o campo `grupo` de todos. Para mudar um programa para "Comentário" (ou tirá-lo de lá), mexe-se na lista `COMENTARIO` desse ficheiro e corre-se outra vez.
 
 ## O que entra no catálogo
 
