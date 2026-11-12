@@ -20,7 +20,7 @@ import xml.etree.ElementTree as ET
 
 AGENTE = "Rubrica/1.0 (verificador do catalogo)"
 EPISODIOS_A_TESTAR = 3
-TIPOS = {"radio", "jornal"}
+TIPOS = {"radio", "jornal", "tv"}
 ID_VALIDO = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
 

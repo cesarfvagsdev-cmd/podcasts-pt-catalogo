@@ -1,6 +1,6 @@
 # Catálogo — Rubrica
 
-Lista de rádios, jornais e programas que a app mostra. A app lê o ficheiro `catalogo.json` deste repositório e depois vai buscar os episódios diretamente ao feed RSS de cada programa.
+Lista de rádios, jornais, televisões e programas que a app mostra. A app lê o ficheiro `catalogo.json` deste repositório e depois vai buscar os episódios diretamente ao feed RSS de cada programa.
 
 - Só entram feeds RSS públicos e confirmados.
 - O áudio toca sempre a partir do feed original; este repositório não guarda ficheiros de áudio nem logos.
@@ -34,7 +34,7 @@ Lista de rádios, jornais e programas que a app mostra. A app lê o ficheiro `ca
 | Campo | Significado |
 |---|---|
 | `versao` | Versão do formato; a app ignora versões que não conhece |
-| `fontes[].tipo` | `radio` ou `jornal` |
+| `fontes[].tipo` | `radio`, `jornal` ou `tv` |
 | `programas[].feed` | Endereço do feed RSS público do programa |
 | `programas[].capa` | Opcional. Endereço da capa, tal como vem no feed do programa. Serve para a app mostrar as listas sem descarregar todos os feeds. Se faltar ou falhar, a app mostra as iniciais do programa |
 
@@ -42,11 +42,19 @@ O exemplo acima é fictício. A ordem dos programas no ficheiro é a ordem em qu
 
 ## O que entra no catálogo
 
-- Programas publicados pela própria rádio ou jornal, com feed RSS aberto (o mesmo que usam as outras apps de podcasts).
+- Tudo o que cada rádio, jornal ou televisão publica como podcast com feed RSS aberto (o mesmo que usam as outras apps de podcasts), incluindo programas já terminados.
 - Feed e áudio servidos por HTTPS, sem login nem assinatura.
-- Fica de fora: vídeo, programas de televisão, conteúdo patrocinado e podcasts de autores independentes apenas alojados na mesma plataforma.
+- Fica de fora: vídeo, e o que não responde por HTTPS ou tem o áudio em erro.
 
-Primeira versão (2026-11-12): 141 programas de 10 fontes — Renascença, RFM, Rádio Comercial, M80, Antena 1, Antena 3, TSF, Observador, Expresso e Público.
+Versão de 2026-11-12: 1229 programas de 31 fontes.
+
+| Tipo | Fontes |
+|---|---|
+| Rádios | Renascença, RFM, Rádio Comercial, M80, Antena 1, Antena 3, TSF, Mega Hits, Cidade FM, Antena 2, Smooth FM, RDP África, RDP Internacional, Rádio Zig Zag, Rádio Miúdos |
+| Jornais e revistas | Observador, Expresso, Público, Correio da Manhã, Jornal de Negócios, ECO, Jornal Económico, Sábado, A Bola, Record |
+| Televisões | SIC Notícias, SIC, CNN Portugal, TVI, RTP, Sport TV |
+
+A ordem dos programas dentro de cada fonte é a ordem "Mais ouvidos" da app: primeiro os mais populares, depois os que têm episódios recentes, por fim o arquivo.
 
 ## Verificar o catálogo
 
