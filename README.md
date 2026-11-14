@@ -24,7 +24,8 @@ Lista de rádios, jornais, televisões e programas que a app mostra. A app lê o
           "categoria": "Humor",
           "grupo": "humor",
           "feed": "https://example.com/feed.xml",
-          "capa": "https://example.com/capa.jpg"
+          "capa": "https://example.com/capa.jpg",
+          "ultimo": "2026-11-13"
         }
       ]
     }
@@ -39,6 +40,7 @@ Lista de rádios, jornais, televisões e programas que a app mostra. A app lê o
 | `programas[].categoria` | Tema do programa, tal como vem do feed |
 | `programas[].grupo` | Opcional. O grupo em que a app arruma o programa: `informacao`, `comentario`, `humor`, `desporto`, `economia`, `sociedade`, `cultura`, `familia` ou `saude`. Sai do tema, exceto o comentário, que está numa lista escrita à mão em `grupos.py`. Se faltar, a app deduz o grupo do tema |
 | `programas[].feed` | Endereço do feed RSS público do programa |
+| `programas[].ultimo` | Opcional. O dia (AAAA-MM-DD, UTC) do episódio mais recente do feed. A app usa-o para marcar os programas em **arquivo** (sem episódios há mais de um ano) e contar os **ativos** (episódio nos últimos 90 dias). As versões antigas da app ignoram-no. Atualiza-se com `python3 ultimo.py` |
 | `programas[].capa` | Opcional. Endereço da capa, tal como vem no feed do programa. Serve para a app mostrar as listas sem descarregar todos os feeds. Se faltar ou falhar, a app mostra as iniciais do programa |
 
 O exemplo acima é fictício. A ordem dos programas no ficheiro é a ordem em que a app os mostra.
@@ -62,6 +64,16 @@ Versão de 2026-11-14: 822 programas de 23 fontes. A RTP (Antena 1, 2 e 3, RDP �
 | Televisões | SIC Notícias, SIC, CNN Portugal, TVI, Sport TV |
 
 A ordem dos programas dentro de cada fonte é a ordem "Mais ouvidos" da app: primeiro os mais populares, depois os que têm episódios recentes, por fim o arquivo.
+
+## Data do último episódio
+
+```
+python3 ultimo.py
+```
+
+Lê o feed de cada programa e escreve no campo `ultimo` o dia do episódio mais recente. Um feed que não responde fica com a data que já tinha. No fim diz quantos estão ativos e em arquivo. Corre-se à mão (por agora), depois de acrescentar programas ou de vez em quando.
+
+Versão de 2026-11-14: os 822 programas têm data; 380 ativos e 314 em arquivo.
 
 ## Verificar o catálogo
 
