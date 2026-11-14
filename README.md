@@ -53,13 +53,13 @@ Depois de acrescentar programas, correr `python3 grupos.py`: preenche o campo `g
 - Feed e áudio servidos por HTTPS, sem login nem assinatura.
 - Fica de fora: vídeo, e o que não responde por HTTPS ou tem o áudio em erro.
 
-Versão de 2026-11-12: 1229 programas de 31 fontes.
+Versão de 2026-11-14: 822 programas de 23 fontes. A RTP (Antena 1, 2 e 3, RDP África, RDP Internacional, Rádio Zig Zag e RTP) e a Rádio Miúdos saíram em 2026-11-14: os termos da RTP só autorizam uso pessoal e a app vai ter anúncios; os programas para crianças saem por causa dos anúncios.
 
 | Tipo | Fontes |
 |---|---|
-| Rádios | Renascença, RFM, Rádio Comercial, M80, Antena 1, Antena 3, TSF, Mega Hits, Cidade FM, Antena 2, Smooth FM, RDP África, RDP Internacional, Rádio Zig Zag, Rádio Miúdos |
+| Rádios | Renascença, RFM, Rádio Comercial, M80, TSF, Mega Hits, Cidade FM, Smooth FM |
 | Jornais e revistas | Observador, Expresso, Público, Correio da Manhã, Jornal de Negócios, ECO, Jornal Económico, Sábado, A Bola, Record |
-| Televisões | SIC Notícias, SIC, CNN Portugal, TVI, RTP, Sport TV |
+| Televisões | SIC Notícias, SIC, CNN Portugal, TVI, Sport TV |
 
 A ordem dos programas dentro de cada fonte é a ordem "Mais ouvidos" da app: primeiro os mais populares, depois os que têm episódios recentes, por fim o arquivo.
 
