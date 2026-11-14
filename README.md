@@ -75,6 +75,25 @@ Lê o feed de cada programa e escreve no campo `ultimo` o dia do episódio mais 
 
 Versão de 2026-11-14: os 822 programas têm data; 380 ativos e 314 em arquivo.
 
+## Catálogo v2 (descrição e pessoas)
+
+```
+python3 v2.py
+```
+
+Gera o `catalogo-v2.json`: o mesmo catálogo (com `"versao": 2`) e, em cada programa, dois campos novos para a pesquisa da app (a partir da versão da fase 3):
+
+| Campo | Significado |
+|---|---|
+| `programas[].descricao` | A descrição do programa no feed, em texto simples, cortada a 160 caracteres |
+| `programas[].pessoas` | Quem faz o programa: o autor do feed e dos episódios, as etiquetas `podcast:person`, os nomes conhecidos que aparecem no início da descrição e a lista à mão em `pessoas.json`. Nunca nomes de rádios, jornais ou televisões. No máximo 8 |
+
+- O `catalogo.json` (versão 1) não muda: as apps antigas continuam a lê-lo. A app nova lê primeiro o `catalogo-v2.json` e, se faltar, o `catalogo.json`.
+- Corre-se depois de mudar o `catalogo.json` (e, se der jeito, uma vez por semana). Um feed que não responde fica com a descrição e as pessoas que já tinha.
+- Para um nome que os feeds não dizem, acrescenta-se em `pessoas.json` e corre-se outra vez.
+
+Versão de 2026-11-14: 822 programas, todos com descrição; 464 com pessoas.
+
 ## Verificar o catálogo
 
 ```
